@@ -72,5 +72,5 @@ total number of values, average and standard deviation.
 
 (C) 2020 Alex Fernández.
 
-Licensed under the MIT license.
+Licensed under the [MIT license](./LICENSE).
 
