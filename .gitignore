@@ -1,0 +1,6 @@
+package-lock.json
+aws-config.json
+node_modules
+*.swp
+*.log
+
