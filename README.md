@@ -1,4 +1,4 @@
-# Lambda Loadtest
+# Lambda Loadtester
 
 This package runs load tests against Lambda functions.
 
@@ -7,7 +7,7 @@ This package runs load tests against Lambda functions.
 Install using `npm`:
 
 ``` bash
-npm install lambda-loadtest
+npm install lambda-loadtester
 ```
 
 Create a file `aws-config.json` in the project root directory,
