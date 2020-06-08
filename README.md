@@ -31,14 +31,9 @@ node bin/run.js --endpoint [name] --body "{}"
 
 The following options are available:
 
-### `--url [URL]`
+### `--endpoint [name]`
 
-The URL to snap, no default.
-Either `--url` or `--file` must be present.
-
-### `--file [path]`
-
-Path to a file that contains a JSON document to send.
+The function to invoke, mandatory.
 
 ### `--number [n]`
 
@@ -48,13 +43,14 @@ Number of total invocations to run, default 1.
 
 Number of parallel invocations on the fly, default 1.
 
-### `--endpoint [name]`
+### `--body [body]`
 
-The function to invoke.
+The payload to send to the lambda function.
+No default.
 
-### `--output [path]`
+### `--file [path]`
 
-Write raw results to a file for the given path.
+Path to a file that contains a JSON document to send as the body.
 
 ## Invocation
 
