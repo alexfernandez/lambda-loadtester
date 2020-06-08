@@ -1,6 +1,6 @@
 {
   "name": "lambda-loadtester",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Load testing for AWS lambda functions",
   "main": "index.js",
   "scripts": {
